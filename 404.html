@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>404 - Page Not Found | ErziQ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVJkEkyC404yBkhnqAaomNwqNcFjHHtWEudMQsaskiUUZ9c6DU1JmxeNlrojjUjeV+sdy1ztDY1b0whWWhohIZ8NM0rywIEzATwI6TC65zdoIsCebF87" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        .error-container { text-align: center; padding: 4rem 2rem; }
+        .error-code { font-size: 6rem; font-weight: 900; color: var(--tab-active); margin: 2rem 0; }
+        .error-message { font-size: 1.5rem; margin: 1rem 0; }
+        .error-description { color: var(--text-color-secondary); margin: 2rem 0; font-size: 1.1rem; }
+        .error-actions { display: flex; gap: 1rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap; }
+        .btn { display: inline-block; padding: 0.75rem 1.5rem; background: var(--tab-active); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; border: 2px solid var(--tab-active); }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3); }
+        .btn-secondary { background: transparent; color: var(--tab-active); }
+        .btn-secondary:hover { background: rgba(0, 123, 255, 0.1); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-container">
+            <div class="error-code">404</div>
+            <h1><i class="fas fa-exclamation-triangle" aria-hidden="true"></i> Page Not Found</h1>
+            <p class="error-description">
+                Sorry, the page you're looking for doesn't exist. It might have been moved or deleted.
+            </p>
+            <div class="error-actions">
+                <a href="/" class="btn">
+                    <i class="fas fa-home" aria-hidden="true"></i> Go to Home
+                </a>
+                <button onclick="history.back()" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i> Go Back
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

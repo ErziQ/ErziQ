@@ -1,0 +1,52 @@
+{
+  "name": "erziq-website",
+  "version": "1.0.0",
+  "description": "A modern, interactive website showcase with smooth animations and professional UX/UI design",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "build": "echo 'No build step required - all files are ready for production'",
+    "deploy": "git add . && git commit -m 'Deployment' && git push origin main"
+  },
+  "keywords": [
+    "modern",
+    "website",
+    "ux",
+    "ui",
+    "animations",
+    "interactive",
+    "pwa",
+    "progressive-web-app"
+  ],
+  "author": "ErziQ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ErziQ/ErziQ.git"
+  },
+  "homepage": "https://github.com/ErziQ/ErziQ#readme",
+  "technologies": [
+    "HTML5",
+    "CSS3",
+    "JavaScript ES6+",
+    "Font Awesome 6.0",
+    "Progressive Web App",
+    "Service Worker"
+  ],
+  "features": [
+    "Tab Navigation",
+    "Copy to Clipboard",
+    "Dark Mode",
+    "Notifications",
+    "Responsive Design",
+    "PWA Support",
+    "Offline Support"
+  ],
+  "browsers": [
+    "Chrome/Edge",
+    "Firefox",
+    "Safari",
+    "Mobile Browsers"
+  ]
+}
